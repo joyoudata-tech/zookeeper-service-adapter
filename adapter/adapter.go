@@ -11,6 +11,9 @@ type ManifestGenerator struct {
 }
 
 type Binder struct {
+	DirectorCreatorCommand string
+	DirectorDeleteCommand string
+	CommandRunner
 	StderrLogger *log.Logger
 }
 
