@@ -50,7 +50,3 @@ func deleteDir(connect *zk.Conn, director string) {
 		return
 	}
 }
-
-
-
-

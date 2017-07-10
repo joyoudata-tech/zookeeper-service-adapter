@@ -44,20 +44,23 @@ func (b *Binder) CreateBinding(bindingId string, boshVMs bosh.BoshVMs, manifest 
 	//创建director目录
 	var director string
 
-	director = bindingId
-	if _, errorStream, err := b.Run(b.DirectorCreatorCommand, strings.Join(zookeeperHosts, ","), bindingId) ; err != nil {
+	director = "/" + bindingId
+	if _, errorStream, err := b.Run(b.ZKCommand, "--zookeeperServers", strings.Join(zookeeperHosts, ","), "create", director) ; err != nil {
 		if strings.Contains(string(errorStream), "node already exists") {
-			b.StderrLogger.Println(fmt.Sprintf("director '%s' already exists", bindingId))
+			b.StderrLogger.Println(fmt.Sprintf("director '%s' already exists", director))
 			return serviceadapter.Binding{}, serviceadapter.NewBindingAlreadyExistsError(nil)
 		}
-		b.StderrLogger.Println("Error create director: " + err.Error())
+		b.StderrLogger.Println("Error creating director: " + err.Error())
 		return serviceadapter.Binding{}, errors.New("")
 	}
 
 	if params["director"] != nil {//带参数的
 		director = params["director"]
-		if _, _, err := b.Run(b.DirectorCreatorCommand, strings.Join(zookeeperHosts, ","), params["director"].(string)); err != nil {
-			b.StderrLogger.Println("Error creating topic: " + err.Error())
+		if !strings.HasPrefix(director, "/") {
+			director = "/" + director
+		}
+		if _, _, err := b.Run(b.ZKCommand, "--zookeeperServers", strings.Join(zookeeperHosts, ","), "create", params["director"].(string)); err != nil {
+			b.StderrLogger.Println("Error creating director: " + err.Error())
 			return serviceadapter.Binding{}, errors.New("")
 		}
 	}

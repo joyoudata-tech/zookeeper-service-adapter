@@ -46,6 +46,7 @@
       <root url="file://C:/Go/src/go" />
       <root url="file://C:/Go/src/bytes" />
       <root url="file://C:/Go/src/time" />
+      <root url="file://D:/gopath/src/launchpad.net" />
       <root url="file://C:/Go/src/plugin" />
       <root url="file://D:/gopath/src/golang.org" />
       <root url="file://D:/gopath/src/gopkg.in" />
@@ -98,6 +99,7 @@
       <root url="file://C:/Go/src/go" />
       <root url="file://C:/Go/src/bytes" />
       <root url="file://C:/Go/src/time" />
+      <root url="file://D:/gopath/src/launchpad.net" />
       <root url="file://C:/Go/src/plugin" />
       <root url="file://D:/gopath/src/golang.org" />
       <root url="file://D:/gopath/src/gopkg.in" />

@@ -15,7 +15,7 @@ func (b *Binder) DeleteBinding(bindingID string, boshVMs bosh.BoshVMs, manifest 
 		b.StderrLogger.Println("no VMs for job peers")
 		return errors.New("")
 	}
-	if _, errorStream, err := b.Run(b.DirectorDeleteCommand, strings.Join(zookeeperServers, ","), bindingID); err != nil {
+	if _, errorStream, err := b.Run(b.ZKCommand, "--zookeeperServers", strings.Join(zookeeperServers, ","), "delete", "/" + bindingID); err != nil {
 		if strings.Contains(string(errorStream), "node does not exist") {
 			b.StderrLogger.Println(fmt.Sprintf("director '%s' not found", bindingID))
 			return serviceadapter.NewBindingNotFoundError(nil)
