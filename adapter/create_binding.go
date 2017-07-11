@@ -55,7 +55,7 @@ func (b *Binder) CreateBinding(bindingId string, boshVMs bosh.BoshVMs, manifest 
 	}
 
 	if params["director"] != nil {//带参数的
-		director = params["director"]
+		director = params["director"].(string)
 		if !strings.HasPrefix(director, "/") {
 			director = "/" + director
 		}

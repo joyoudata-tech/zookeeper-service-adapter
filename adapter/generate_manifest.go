@@ -19,7 +19,7 @@ func defaultDeploymentInstanceGroupsToJobs() map[string][]string {
 }
 
 //创建清单
-func (a *ManifestGenerator) GenerateManfest(
+func (a *ManifestGenerator) GenerateManifest(
 	serviceDeployment serviceadapter.ServiceDeployment,
 	servicePlan serviceadapter.Plan,
 	requestParams serviceadapter.RequestParameters,
@@ -70,7 +70,7 @@ func (a *ManifestGenerator) GenerateManfest(
 	//zookeeper的instanceGroup
 	zookeeperBrokerInstanceGroup := &instanceGroups[0]
 	//zookeeper的网络
-	if(zookeeperBrokerInstanceGroup.Networks) != 1 {
+	if len(zookeeperBrokerInstanceGroup.Networks) != 1 {
 		a.StderrLogger.Println(fmt.Sprintf("expected 1 network for %s, got %d", zookeeperBrokerInstanceGroup.Name, len(zookeeperBrokerInstanceGroup.Networks)))
 		return bosh.BoshManifest{}, errors.New("")
 	}

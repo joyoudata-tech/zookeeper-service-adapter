@@ -17,5 +17,3 @@ type Binder struct {
 }
 
 var InstanceGroupMapper = serviceadapter.GenerateInstanceGroupsWithNoProperties
-
-
