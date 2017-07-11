@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "T26b0Pl2fui6nfFisXN9olOSiCo=",
+			"path": "github.com/pivotal-cf/on-demand-services-sdk/bosh",
+			"revision": "bf8b26982862f8d354ad582473f9b9f222e9e31f",
+			"revisionTime": "2017-07-04T09:27:19Z"
+		},
+		{
+			"checksumSHA1": "3fCUo0hJjcj4bx+gyHRvKkUoc3s=",
+			"path": "github.com/pivotal-cf/on-demand-services-sdk/serviceadapter",
+			"revision": "bf8b26982862f8d354ad582473f9b9f222e9e31f",
+			"revisionTime": "2017-07-04T09:27:19Z"
+		},
+		{
+			"checksumSHA1": "qzV+EWxa3gJhaTxeOHSoH6vQ8Yg=",
+			"path": "github.com/tevino/go-zookeeper/zk",
+			"revision": "c218ec636befdf6cdf800c0218b7131ff4de7687",
+			"revisionTime": "2017-05-12T02:40:26Z"
+		},
+		{
+			"checksumSHA1": "WgyhR6eOjxb33XfG0kO78Fl2LI4=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "014792cf3e266caff1e916876be12282b33059e0",
+			"revisionTime": "2016-02-23T20:26:51Z"
+		},
+		{
+			"checksumSHA1": "3bBizcgTCjjrx58Xx3G/S6cp09M=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "e4d366fc3c7938e2958e662b4258c7a89e1f0e3e",
+			"revisionTime": "2016-07-15T03:37:55Z"
+		}
+	],
+	"rootPath": "github.com/joyoudata-tech/zookeeper-service-adapter"
+}

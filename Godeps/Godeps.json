@@ -1,6 +1,33 @@
 {
-	"ImportPath": ".",
+	"ImportPath": "github.com/joyoudata-tech/zookeeper-service-adapter",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v75",
-	"Deps": []
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/pivotal-cf/on-demand-services-sdk/bosh",
+			"Comment": "v0.16.1",
+			"Rev": "bf8b26982862f8d354ad582473f9b9f222e9e31f"
+		},
+		{
+			"ImportPath": "github.com/pivotal-cf/on-demand-services-sdk/serviceadapter",
+			"Comment": "v0.16.1",
+			"Rev": "bf8b26982862f8d354ad582473f9b9f222e9e31f"
+		},
+		{
+			"ImportPath": "github.com/tevino/go-zookeeper/zk",
+			"Rev": "c218ec636befdf6cdf800c0218b7131ff4de7687"
+		},
+		{
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.17.1",
+			"Rev": "014792cf3e266caff1e916876be12282b33059e0"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "e4d366fc3c7938e2958e662b4258c7a89e1f0e3e"
+		}
+	]
 }

@@ -4,7 +4,7 @@ import (
 	"os"
 	"log"
 
-	"../../adapter"
+	"github.com/joyoudata-tech/zookeeper-service-adapter/adapter"
 	"github.com/pivotal-cf/on-demand-services-sdk/serviceadapter"
 )
 

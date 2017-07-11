@@ -14,7 +14,7 @@ const OnlystemcellAlias = "only-stemcell"
 //manifest的job任务清单
 func defaultDeploymentInstanceGroupsToJobs() map[string][]string {
 	return map[string][]string{
-		"peers": []string{"peers"},
+		"zookeeper": []string{"zookeeper"},
 	}
 }
 
@@ -30,7 +30,7 @@ func (a *ManifestGenerator) GenerateManifest(
 	if previousPlan != nil {
 		prev := instanceCounts(*previousPlan)
 		current := instanceCounts(servicePlan)
-		if (prev["peers"] > current["peers"]) {//有多少服务写多少服务
+		if (prev["zookeeper"] > current["zookeeper"]) {//有多少服务写多少服务
 			a.StderrLogger.Println("the current service plan is too small.")
 			return bosh.BoshManifest{}, errors.New("")
 		}
@@ -56,7 +56,7 @@ func (a *ManifestGenerator) GenerateManifest(
 		}
 	}
 	//检查zookeeper的peers实例是否存在
-	err := checkInstanceGroupsPresent([]string{"peers"}, servicePlan.InstanceGroups)
+	err := checkInstanceGroupsPresent([]string{"zookeeper"}, servicePlan.InstanceGroups)
 	if err != nil {
 		a.StderrLogger.Println(err.Error())
 		return bosh.BoshManifest{}, errors.New("Contact your operator, service configuration issue occurred")
@@ -156,7 +156,7 @@ func (a *ManifestGenerator) GenerateManifest(
 		syncLimit = int(val.(float64))
 	}
 	//组合所有的属性到zookeeper的job里
-	if zookeeperBrokerJob, ok := getJobFromInstanceGroup("peers", zookeeperBrokerInstanceGroup); ok {
+	if zookeeperBrokerJob, ok := getJobFromInstanceGroup("zookeeper", zookeeperBrokerInstanceGroup); ok {
 		zookeeperBrokerJob.Properties = map[string]interface{}{
 			"autopurge_purge_interval": autopurgePurgeInterval,
 			"autopurge_snap_retain_count": autopurgeSnapRetainCount,
