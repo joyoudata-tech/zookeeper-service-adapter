@@ -29,7 +29,7 @@ func (b *Binder) CreateBinding(bindingId string, boshVMs bosh.BoshVMs, manifest 
 	}
 
 	//判断zookeeper vm是否存在
-	zookeeperHosts := boshVMs["peers"]
+	zookeeperHosts := boshVMs["zookeeper"]
 	if len(zookeeperHosts) == 0 {
 		b.StderrLogger.Println("no VMs for instance group peers")
 		return serviceadapter.Binding{}, errors.New("")

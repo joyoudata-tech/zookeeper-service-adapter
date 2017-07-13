@@ -10,7 +10,7 @@ import (
 )
 
 func (b *Binder) DeleteBinding(bindingID string, boshVMs bosh.BoshVMs, manifest bosh.BoshManifest, requestParams serviceadapter.RequestParameters) error {
-	zookeeperServers := boshVMs["peers"]
+	zookeeperServers := boshVMs["zookeeper"]
 	if len(zookeeperServers) == 0 {
 		b.StderrLogger.Println("no VMs for job peers")
 		return errors.New("")
