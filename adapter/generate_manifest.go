@@ -130,10 +130,10 @@ func (a *ManifestGenerator) GenerateManifest(
 	if val, ok := servicePlan.Properties["min_session_timeout"]; ok {
 		minSessionTimeout = int(val.(float64))
 	}
-	//pre_allocation_size
-	preAllocationSize := 65536
+	//pre_allocation_size string
+	preAllocationSize := "65536"
 	if val, ok := servicePlan.Properties["pre_allocation_size"]; ok {
-		preAllocationSize = int(val.(float64))
+		preAllocationSize = val
 	}
 	//snap_count
 	snapCount := 100000
