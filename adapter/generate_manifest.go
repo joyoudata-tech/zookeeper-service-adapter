@@ -133,7 +133,7 @@ func (a *ManifestGenerator) GenerateManifest(
 	//pre_allocation_size string
 	preAllocationSize := "65536"
 	if val, ok := servicePlan.Properties["pre_allocation_size"]; ok {
-		preAllocationSize = val
+		preAllocationSize = val.(string)
 	}
 	//snap_count
 	snapCount := 100000

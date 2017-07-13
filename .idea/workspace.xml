@@ -28,7 +28,7 @@
       <file leaf-file-name="adapter.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adapter/adapter.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="266">
               <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
               <folding>
                 <element signature="e#17#98#0" expanded="true" />
@@ -40,7 +40,7 @@
       <file leaf-file-name="create_binding.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adapter/create_binding.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
+            <state relative-caret-position="399">
               <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
               <folding>
                 <element signature="e#17#200#0" expanded="true" />
@@ -52,7 +52,7 @@
       <file leaf-file-name="generate_dashboard_url.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adapter/generate_dashboard_url.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="152">
               <caret line="11" column="99" lean-forward="false" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
               <folding>
                 <element signature="e#17#143#0" expanded="true" />
@@ -74,8 +74,8 @@
       <file leaf-file-name="generate_manifest.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adapter/generate_manifest.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="132" column="11" lean-forward="false" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="29" />
+            <state relative-caret-position="133">
+              <caret line="135" column="48" lean-forward="true" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
               <folding>
                 <element signature="e#17#179#0" expanded="true" />
               </folding>
@@ -97,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/github.com/pivotal-cf/on-demand-services-sdk/serviceadapter/domain.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="132" column="8" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+              <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -106,7 +106,7 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/service-adapter/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="418">
               <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
               <folding>
                 <element signature="e#14#164#0" expanded="true" />
@@ -175,7 +175,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -194,6 +194,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,7 +259,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -271,7 +271,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Single File.go run main.go">
+  <component name="RunManager" selected="Go Single File.go run main.go (1)">
     <configuration default="false" name="go run zkClient.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="zookeeper-service-adapter" />
       <working_directory value="$PROJECT_DIR$" />
@@ -283,6 +283,12 @@
       <module name="zookeeper-service-adapter" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/cmd/service-adapt/main.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run main.go (1)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="zookeeper-service-adapter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/service-adapter/main.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -509,14 +515,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run zkClient.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run zkClient.go" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run zkClient.go" />
       </list>
     </recent_temporary>
   </component>
@@ -573,11 +581,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499917119971</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pre_allocation_size is string not integer.">
+      <created>1499929633732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1499929633732</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -588,19 +603,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26783004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27175573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -619,7 +634,8 @@
     <MESSAGE value="update zookeeper generate manifest." />
     <MESSAGE value="modify service-adapter dir." />
     <MESSAGE value="fix bind and unbind service instance zookeeper name." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bind and unbind service instance zookeeper name." />
+    <MESSAGE value="pre_allocation_size is string not integer." />
+    <option name="LAST_COMMIT_MESSAGE" value="pre_allocation_size is string not integer." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -690,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +1006,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/service-adapter/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="418">
           <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding>
             <element signature="e#14#164#0" expanded="true" />
@@ -1013,19 +1024,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adapter/adapter.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="266">
           <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
           <folding>
             <element signature="e#17#98#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/pivotal-cf/on-demand-services-sdk/serviceadapter/domain.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="132" column="8" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +1042,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adapter/create_binding.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
+        <state relative-caret-position="399">
           <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="e#17#200#0" expanded="true" />
@@ -1049,7 +1052,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adapter/generate_dashboard_url.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="152">
           <caret line="11" column="99" lean-forward="false" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
           <folding>
             <element signature="e#17#143#0" expanded="true" />
@@ -1057,10 +1060,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/pivotal-cf/on-demand-services-sdk/serviceadapter/domain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adapter/generate_manifest.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="132" column="11" lean-forward="false" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="29" />
+        <state relative-caret-position="133">
+          <caret line="135" column="48" lean-forward="true" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
           <folding>
             <element signature="e#17#179#0" expanded="true" />
           </folding>
