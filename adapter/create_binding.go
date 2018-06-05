@@ -16,14 +16,17 @@ func (b *Binder) CreateBinding(bindingId string, boshVMs bosh.BoshVMs, manifest 
 	//用户自定义根目录
 	params := requestParams.ArbitraryParams()
 	var invalidParams []string
-	for paramKey, _ := range params {
-		if paramKey != "director" {
-			invalidParams = append(invalidParams, paramKey)
+	if len(params) != 0 {
+		for paramKey, _ := range params {
+			if paramKey != "director" {
+				invalidParams = append(invalidParams, paramKey)
+			}
 		}
 	}
+
 	if len(invalidParams) > 0 {
 		sort.Strings(invalidParams)
-		errorMessage := fmt.Sprintf("unsupported parameter(s) for this service: %s", strings.Join(invalidParams, ", "))
+		errorMessage := fmt.Sprintf("unsupported parameter(s) for this service: %s, please make sure the 'director' params.", strings.Join(invalidParams, ", "))
 		b.StderrLogger.Println(errorMessage)
 		return serviceadapter.Binding{}, errors.New(errorMessage)
 	}

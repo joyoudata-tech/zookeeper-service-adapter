@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a8616cd-4ae1-4393-ab37-685b3017d97a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/adapter/generate_plan_schemas.go" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd/service-adapter/service-adapter.exe" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmd/service-adapter/main.go" afterPath="$PROJECT_DIR$/cmd/service-adapter/main.go" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_binding.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create_binding.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adapter/create_binding.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="60" />
               <folding>
                 <element signature="e#17#200#0" expanded="true" />
               </folding>
@@ -51,23 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/zk-client/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-              <folding>
-                <element signature="e#14#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generate_plan_schemas.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="generate_plan_schemas.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adapter/generate_plan_schemas.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="216">
+              <caret line="8" column="96" lean-forward="false" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
               <folding>
                 <element signature="e#17#90#0" expanded="true" />
               </folding>
@@ -144,8 +129,8 @@
         <option value="$PROJECT_DIR$/vendor/github.com/pivotal-cf/on-demand-services-sdk/bosh/bosh_manifest.go" />
         <option value="$PROJECT_DIR$/jobs/zookeeper_job.go" />
         <option value="$PROJECT_DIR$/jobs/zookeeper/zookeeper_job.go" />
-        <option value="$PROJECT_DIR$/adapter/generate_plan_schemas.go" />
         <option value="$PROJECT_DIR$/cmd/service-adapter/main.go" />
+        <option value="$PROJECT_DIR$/adapter/generate_plan_schemas.go" />
       </list>
     </option>
   </component>
@@ -946,31 +931,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/zk-client/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-          <folding>
-            <element signature="e#14#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/github.com/pivotal-cf/on-demand-services-sdk/bosh/bosh_manifest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/create_binding.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="e#17#200#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,12 +965,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/zk-client/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding>
+            <element signature="e#14#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adapter/generate_plan_schemas.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="216">
+          <caret line="8" column="96" lean-forward="false" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
           <folding>
             <element signature="e#17#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/create_binding.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="e#17#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
